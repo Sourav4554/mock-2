@@ -52,7 +52,7 @@ console.log(`sum = ${sumOfarray(array)}`);
  * Q4. Find the Largest Number
   Write a function to find the largest number from an array.
  */
-const array1 = [34, 56, 23, 94];
+const array1 = [34, 56, 23, 94,-2, -100,94];
 const largest = array1.reduce((acc, item) => {
   acc < item ? (acc = item) : acc;
   return acc;
@@ -161,7 +161,7 @@ Example Input:
 "JavaScript practical questions are very important"
  */
 
-const longSentence = "JavaScript practical questions are very important";
+const longSentence = "JavaScript practical questionso are very important";
 const makeArray = longSentence.split(" ");
 let longest = makeArray[0];
 let longestC = makeArray[0].length;
