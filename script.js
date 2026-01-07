@@ -173,4 +173,4 @@ const findLongest = (longest, longestC) => {
   }
   return longest;
 };
-console.log(findLongest(longest, longestC));
+console.log(`longest = ${findLongest(longest, longestC)}`);
